@@ -1,22 +1,42 @@
 /* ESERCIZIO 1
  Scrivi un algoritmo per trovare il più grande tra due numeri interi.
 */
+console.log(
+  "Esercizio 1: Scrivi un algoritmo per trovare il più grande tra due numeri interi."
+);
+const int = 20;
+console.log(int, "è il primo valore scelto");
+const int1 = 18;
+console.log(int1, "è il secondo valore scelto");
 
-const int1 = 16;
-const int = 18;
-if (int >= int1) {
-  console.log("il numero è il più grande tra i due ");
+if (int > int1) {
+  console.log(int, "è il più grande");
+} else {
+  console.log(int1, "è più grande");
 }
 
 /* ESERCIZIO 2
   Scrivi un algoritmo che mostri "not equal" in console se un numero intero fornito è diverso da 5.
 */
-
-/* SCRIVI QUI LA TUA RISPOSTA */
+console.log(
+  "Esercizio 2 - Scrivi un algoritmo che mostri -not equal- console se un numero intero fornito è diverso da 5."
+);
+const int3 = 15;
+console.log(int3, "è il valore scelto");
+if (int3 > 5) {
+  console.log("not equal");
+}
 
 /* ESERCIZIO 3
   Scrivi un algoritmo che mostri "divisibile per 5" in console se un numero fornito è perfettamente divisibile per 5 (suggerimento: usa l'operatore modulo)
 */
+console.log(
+  "Esercizio3 -  Scrivi un algoritmo che mostri - divisibile per 5- in console se un numero fornito è perfettamente divisibile per 5 (suggerimento: usa l'operatore modulo)"
+);
+console.log(int1, "è il valore scelto");
+if (int1 % 5) {
+  console.log("");
+}
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
