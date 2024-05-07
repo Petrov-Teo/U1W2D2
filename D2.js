@@ -34,32 +34,102 @@ console.log(
   "Esercizio3 -  Scrivi un algoritmo che mostri - divisibile per 5- in console se un numero fornito è perfettamente divisibile per 5 (suggerimento: usa l'operatore modulo)"
 );
 console.log(int1, "è il valore scelto");
-if (int1 % 5) {
-  console.log("");
+if (int1 % 5 === 0) {
+  console.log("divisibile per 5");
+} else {
+  console.log("non è divisibile per 5");
 }
-
-/* SCRIVI QUI LA TUA RISPOSTA */
 
 /* ESERCIZIO 4
   Scrivi un algoritmo per verificare che, dati due numeri interi, il valore di uno di essi sia 8 oppure se la loro addizione/sottrazione sia uguale a 8.
 */
-
-/* SCRIVI QUI LA TUA RISPOSTA */
-
+console.log(
+  "ESERCIZIO 4 Scrivi un algoritmo per verificare che, dati due numeri interi, il valore di uno di essi sia 8 oppure se la loro addizione/sottrazione sia uguale a 8."
+);
+// const val = [10, 8, 18, 16, 36];
+// if (val[0] === 8) {
+//   console.log("0");
+//   else if (val[1] === 8) {
+//     console.log("1");
+//   }
+// }
 /* ESERCIZIO 5
   Stai lavorando su un sito di e-commerce. Stai salvando il saldo totale del carrello dell'utente in una variabile "totalShoppingCart".
   C'è una promozione in corso: se il totale del carrello supera 50, l'utente ha diritto alla spedizione gratuita (altrimenti la spedizione ha un costo fisso pari a 10).
   Crea un algoritmo che determini l'ammontare totale che deve essere addebitato all'utente per il checkout.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+console.log(
+  "ESERCIZIO 5 Stai lavorando su un sito di e-commerce. Stai salvando il saldo totale del carrello dell'utente in una variabile (totalShoppingCart).C'è una promozione in corso: se il totale del carrello supera 50, l'utente ha diritto alla spedizione gratuita (altrimenti la spedizione ha un costo fisso pari a 10).Crea un algoritmo che determini l'ammontare totale che deve essere addebitato all'utente per il checkout."
+);
+console.log("esempio1");
+let totalShoppingCart = 65;
+console.log("TOTALE CARRELLO €", totalShoppingCart);
+
+if (totalShoppingCart > 50) {
+  console.log(
+    "COMPLIMENTI solo per oggi la spedizione è gratuita con una spesa minina di €50,00"
+  );
+} else if (totalShoppingCart < 50) {
+  console.log(
+    "il costo delle spedizione di € 10,00 saranno aggiunti al tuo carrello"
+  );
+}
+console.log("esempio 2");
+totalShoppingCart = 25;
+console.log("TOTALE CARRELLO €", totalShoppingCart);
+if (totalShoppingCart > 50) {
+  console.log(
+    "COMPLIMENTI solo per oggi la spedizione è gratuita con una spesa minina di €50,00"
+  );
+}
+if (totalShoppingCart > 50) {
+  console.log(
+    "COMPLIMENTI solo per oggi la spedizione è gratuita con una spesa minina di €50,00"
+  );
+} else if (totalShoppingCart < 50) {
+  console.log(
+    "il costo delle spedizione di € 10,00 saranno aggiunti al tuo carrello"
+  );
+}
 
 /* ESERCIZIO 6
   Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
   Modifica la risposta precedente includendo questa nuova promozione nell'algoritmo, determinando come prima se le spedizioni sono gratuite oppure no e e calcolando il totale.
 */
+console.log(
+  "ESERCIZIO 6 Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto. Modifica la risposta precedente includendo questa nuova promozione nell'algoritmo, determinando come prima se le spedizioni sono gratuite oppure no e e calcolando il totale."
+);
+console.log("esempio1");
+totalShoppingCart = 65;
+const sconto = 20;
+console.log("TOTALE CARRELLO €", totalShoppingCart);
+console.log("Sconto Black Fiday", sconto, "%");
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+if (((totalShoppingCart / sconto) * 0, 8) < 50) {
+  console.log(
+    "COMPLIMENTI solo per oggi la spedizione è gratuita con una spesa minina di €50,00"
+  );
+}
+if (((totalShoppingCart / sconto) * 0, 8) > 50) {
+  console.log(
+    "il costo delle spedizione di € 10,00 saranno aggiunti al tuo carrello"
+  );
+}
+console.log("esempio 2");
+totalShoppingCart = 25;
+console.log("TOTALE CARRELLO €", totalShoppingCart);
+console.log("Sconto Black Fiday", sconto, "%");
+
+if (((totalShoppingCart / sconto) * 0, 8) > 50) {
+  console.log(
+    "COMPLIMENTI solo per oggi la spedizione è gratuita con una spesa minina di €50,00"
+  );
+} else if (((totalShoppingCart / sconto) * 0, 8) < 50) {
+  console.log(
+    "il costo delle spedizione di € 10,00 saranno aggiunti al tuo carrello"
+  );
+}
 
 /* ESERCIZIO 7
   Crea tre variabili, e assegna un valore numerico a ciascuna di esse.
