@@ -33,8 +33,11 @@ if (int3 > 5) {
 console.log(
   "Esercizio3 -  Scrivi un algoritmo che mostri - divisibile per 5- in console se un numero fornito è perfettamente divisibile per 5 (suggerimento: usa l'operatore modulo)"
 );
-console.log(int1, "è il valore scelto");
-if (int1 % 5 === 0) {
+const num1 = 25;
+const num2 = 34;
+console.log(num1, "è il valore scelto");
+
+if (num1 % 5 === 0) {
   console.log("divisibile per 5");
 } else {
   console.log("non è divisibile per 5");
@@ -46,13 +49,18 @@ if (int1 % 5 === 0) {
 console.log(
   "ESERCIZIO 4 Scrivi un algoritmo per verificare che, dati due numeri interi, il valore di uno di essi sia 8 oppure se la loro addizione/sottrazione sia uguale a 8."
 );
-// const val = [10, 8, 18, 16, 36];
-// if (val[0] === 8) {
-//   console.log("0");
-//   else if (val[1] === 8) {
-//     console.log("1");
-//   }
-// }
+const num3 = 38;
+const num4 = 68;
+
+if (num3 + num4 === 8) {
+  console.log("la somma dei due numeri è otto");
+} else if (num3 - num4 === 8 || num4 - num3) {
+  console.log("la sottrazione di uno dei numeri è otto");
+} else if (num3 === 8 || num4 === 8) {
+  console.log("uno dei numeri è ugale a otto");
+} else {
+}
+Math.abs;
 /* ESERCIZIO 5
   Stai lavorando su un sito di e-commerce. Stai salvando il saldo totale del carrello dell'utente in una variabile "totalShoppingCart".
   C'è una promozione in corso: se il totale del carrello supera 50, l'utente ha diritto alla spedizione gratuita (altrimenti la spedizione ha un costo fisso pari a 10).
@@ -136,6 +144,18 @@ if (((totalShoppingCart / sconto) * 0, 8) > 50) {
   Utilizzando un blocco condizionale, crea un algoritmo per ordinarle secondo il loro valore, dal più alto al più basso.
   Alla fine mostra il risultato in console.
 */
+const valNnumerico1 = 8;
+const valNnumerico2 = 9;
+const valNnumerico3 = 84;
+
+if (valNnumerico1 >= valNnumerico2) {
+  console.log(valNnumerico3, valNnumerico2, valNnumerico1);
+} else if (valNnumerico1 >= valNnumerico3) {
+  console.log(valNnumerico2, valNnumerico1);
+} else if (valNnumerico3 >= valNnumerico1) {
+  console.log(valNnumerico3, valNnumerico2, valNnumerico1);
+} else {
+}
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
